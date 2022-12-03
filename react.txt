@@ -1,0 +1,112 @@
+O que é  o react?
+
+É um biblioteca JavaScript para a criação de interfaces de usuário, surgiu  com o objetivo
+de otimizar a atualização e a sincronização de atividades simultaneas
+
+
+Simplifica a conexao entre HTML , CSS e JavaScript
+
+Biblioteca 
+
+Este é o recurso mias utilizado no mundo da programação , a ideia é compartilhar
+soluções por meio de funções ou métodos
+
+Exemplo de Biblioteca
+
+-Moment.js
+-Chart.js
+-Voca
+-mo.js
+-React
+
+Framework
+
+O framework nada mais é do que uma ferramenta que vai te ajudar a ter como unico objetiivo focar
+em desenvolver o projeto,não em detalhes de configurações.
+
+Exemplos de Frameworks
+
+-Angular
+-Vuex
+-Ionic
+-Next
+-Express
+-LoopBack
+
+Componentes de classes Funcionais
+
+Pagina é um componente e tudo dentro dela é componente
+
+Conceito de componente de classe
+
+Componentes de classe são componentes que possuem um alto nível de poder
+dentro da aplicação, pois além gerenciar o próprio estado, herdam os chamados
+métodos de ciclo de vida do React, lidam com partes lógicas da aplicação 
+e manipulam eventos através de métodos que podem ser invocados em qualquer
+lugar do componente ou em seus filhos.
+
+EXEMPLO
+import React, { Component } from 'react'
+
+class Hello extends Component {
+  render() {
+    return <h3>Olá, {this.props.name}</h3>
+  }
+
+Conceito de componente e props
+
+Padroniza as ações e comportamentos do meu componente
+
+Propiedades é o comportamento que sera adotado 
+
+As  chaves é uma pratica de desestruturaçao
+
+
+
+
+Componentes dentro de funções
+
+
+Componente de classe 
+
+todo componente lida com estado
+
+componentes são como funções em JavaScript. Eles aceitam entradas arbitrárias (chamadas “props”) e retornam elementos React descrevendo o que deve aparecer na tela. Componentes de Função e Classe
+
+Ciclo de vida de um componente
+
+Ciclo de Vida dos componentes React. Cada componente do React possui um ciclo de vida que você pode monitorar e manipular durante suas três fases principais. As três fases são: Mounting, Updating e Unmounting. Mounting. Mounting significa colocar elementos no DOM. O React possui quatro métodos internos que são chamados, nessa ordem, ao montar um componente: constructor()
+
+Mounting
+Mounting significa colocar elementos no DOM.
+
+O React possui quatro métodos internos que são chamados, nessa ordem, ao montar um componente:
+
+constructor()
+getDerivedStateFromProps()
+render()
+componentDidMount()
+O método render () é obrigatório e sempre será chamado, os outros são opcionais e serão chamados se você os definir.
+
+Updating
+A próxima fase do ciclo de vida é quando um componente é atualizado. Um componente é atualizado sempre que houver uma alteração no estado ou adereços do componente.
+
+O React possui cinco métodos internos que são chamados, nessa ordem, quando um componente é atualizado:
+
+getDerivedStateFromProps()
+shouldComponentUpdate()
+render()
+getSnapshotBeforeUpdate()
+componentDidUpdate()
+O método render () é obrigatório e sempre será chamado, os outros são opcionais e serão chamados se você os definir.
+
+Unmounting
+A próxima fase do ciclo de vida é quando um componente é removido do DOM ou desmontado como o React gosta de chamá-lo.
+
+O React possui apenas um método interno chamado quando um componente é desmontado:
+
+componentWillUnmount.
+componentWillUnmount
+O método componentWillUnmount é chamado quando o componente está prestes a ser removido do DOM.
+
+VIRTUAL DOM - 
