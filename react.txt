@@ -110,3 +110,16 @@ componentWillUnmount
 O método componentWillUnmount é chamado quando o componente está prestes a ser removido do DOM.
 
 VIRTUAL DOM - 
+              
+Styled components
+
+É uma biblioteca que possibilota escrever codigos css em um arquivo js
+
+
+HOOKS 
+
+Permitem o uso de varios recursos de forma simples através de funções.
+Eles tambem ajudam a organizar a lógica utilizaada dentro dos componentes
+
+1-Hooks é um estado de um comportamento dentro de um componente
+EXEMPLO : Um input                                                                                                                                                                                                                

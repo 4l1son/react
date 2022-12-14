@@ -1,0 +1,17 @@
+TIPAGEM ESTATICA 
+-MELHOR CONTROLE DOS TIPOS DA VARIAVEIS
+const nome : string = 'alisson'
+
+Inferencia de tipos é se eu passar um valor diferente do tipo da variavel
+
+Interface é quando eu quero tipar um objeto,DESCREVER como ele deve se parecer
+
+enum para centralizar informações
+
+enum CARGO {
+	DESENVOLVEDOR = 'desenvolvedor'
+}
+const usuario = {
+	nome: 'alisson',
+	cargo:CARGO.DESENVOLVEDOR
+}

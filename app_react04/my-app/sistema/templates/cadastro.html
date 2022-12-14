@@ -1,0 +1,102 @@
+<!DOCYTYPE html>
+	<html>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  	
+    <title>Cadastro</title>
+   
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+
+    <body>
+<style>
+body{
+	background-color: #d6b1ebd3;
+}
+h2{
+    color: #A91079;
+	text-align: center;
+	padding-top: 50px;
+	right: 10px;
+	left: 10px;
+	font:  sans-serif;
+    font-size: large;
+}
+p,h1{
+	color: #A91079;
+	text-align: center;
+	padding-top: 10px;
+	right: 10px;
+	left: 10px;
+	
+}
+p{
+	font-family: sans-serif;
+	font-size: 18px;
+}
+
+form {
+  width: 300px;
+
+
+  margin: 0 auto;
+  padding-bottom: 1em;
+  background-color:rgba (79, 92, 153, 0.8);
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}input,text, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+.centro{
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+  
+</style>
+
+		<h1>Cadastro do usuario</h1>
+        <h2>Formulario para cadastro de usuario</h2>
+    	<div>
+    		<section>
+    		<p>Nome do usuario:</p> <form><input type="text" name="nome">
+    		</section>
+    		</form>
+    	</div>
+    	<div>
+    		<section>
+    			<p>Email:</p><form><input type="email" name="senha">
+                    </form>
+    		</section>
+    	</div>
+    	<div>
+    		<section>
+    			<p>Perfil:</p><form><input type="text" name="senha">
+                </form>
+    		</section>
+    	</div>
+        <div>
+    		<section>
+    			<p>Senha:</p><form><input type="password" name="senha">
+                    </form>
+    		</section>
+    	</div>
+    	
+    	
+        <div class="centro">
+			<form method="post" action="http://localhost:5000/login">
+    	  <button class="btn btn-block btn-danger" type="submit" > Cadastrar</button>
+		</form>
+        </div>
+	</body>
+	</html>

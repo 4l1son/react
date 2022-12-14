@@ -1,0 +1,45 @@
+body{
+	background-color: #9559b9;
+}
+
+p,h1{
+	color: #A91079;
+	text-align: center;
+	padding-top: 50px;
+	right: 10px;
+	left: 10px;
+	
+}
+p{
+	font-family: sans-serif;
+	font-size: 18px;
+}
+
+form {
+  width: 300px;
+
+
+  margin: 0 auto;
+  padding-bottom: 2em;
+  background-color:rgba (79, 92, 153, 0.8);
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}input,text, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+.centro{
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+  
